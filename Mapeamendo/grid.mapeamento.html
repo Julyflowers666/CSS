@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ .container {
+            display: grid;
+            grid-template-columns: 280px 1fr; 
+            gap: 8px; 
+            grid-template-rows: 80px 60px 250px 200px ;
+            grid-template-areas:
+                "cabecalho    cabecalho"
+                "menu         menu"
+                "esquerda     acima"
+                "esquerda     direita";}
+
+        .cabecalho{
+            grid-area: cabecalho;
+            background-color: #29A0EF;
+        }
+
+        .menu{
+            grid-area: menu;
+            background-color: #81C14B;
+        }
+
+        .esquerda{
+            grid-area: esquerda;
+            background-color: #A855D8;
+        }
+        .acima{
+            grid-area: acima;
+            background-color: #1b8a94;
+        } 
+        .direita{
+            grid-area: direita;
+            background-color: #DC963C;
+        }            
+
+</style>
+<body>
+    <div class="container">
+        <div class="cabecalho">Título do Site</div>
+        <div class="menu">aqui</div>
+        <div class="esquerda">Área de Marketing</div>
+        <div  class="acima">Informações Importantes</div>
+        <div class="direita">
+            <div class="bloco1"><img src="img1.jpg" alt="IA"></div>
+            <div class="bloco2">.</div>
+        </div>
+        
+    </div>
+
+    
+</body>
+</html>
