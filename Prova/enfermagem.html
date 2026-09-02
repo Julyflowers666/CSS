@@ -7,10 +7,9 @@
     <link rel="icon" type="image/png" href="Imagens/senac.png">
     <link rel="stylesheet" href = "estilo.css">
     <style>
-        
         .fundo{
             background-color: rgb(189, 189, 189);
-            height: 1666px;
+            height: 1665px;
             width: 100%;
         }
         .container{
@@ -19,6 +18,12 @@
             width: 90%;
             border-radius: 45px;
             margin: auto;
+        }
+        .fundo1{
+            height: 1000px;
+            width: 100%;
+            display: flex;
+
         }
         .cabecalho{
             background-color: rgb(255, 255, 255);
@@ -42,16 +47,7 @@
             margin: 25px;
             border-radius: 15px;
         }
-        .banner{
-            background-color: blueviolet;
-            border-radius: 15px;
-            height: 250px;
-            width: 85%;
-            float: none;
-            margin: 10px;
-            margin-left: 90px;
-            display: flex;
-        }
+
         .divisao{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -110,8 +106,8 @@
             display:grid;
             grid-template-columns:repeat(6,1fr);
             gap:20px;
+            margin-top: 9px;
             padding:35px 40px;
-            margin-top: -250px;
             height: 200px;
             border-radius: 15px;
         }
@@ -135,58 +131,58 @@
     </style>
 </head>
 <body>
+    <a href = "index.html"></a>
     <div class = "fundo">
-    <div class = "container" >
-        <div class = "cabecalho"><img src = "Imagens/senac.png"; style ="height:80px;width:120px;float:left;">
-        <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 100px;"> Cursos </p>
-        <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 100px;"> Linguagens </p>
-        <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 100px;"> Projetos</p>
-        <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 100px;"> Galerias </p>
-        <input class="pesquisa"; style = "font-size: 15px; width: 400px;" type="search" placeholder="Pesquise um curso...">
+    <div class = "container">
+
+            <div class = "cabecalho"><a href = "Index.html"><img src = "Imagens/senac.png"; style ="height:80px;width:120px;float:left;"></a>
+                <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 100px;"> Cursos </p>
+                <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 100px;"> Linguagens </p>
+                <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 100px;"> Projetos</p>
+                <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 100px;"> Galerias </p>
+                <input class="pesquisa"; style = "font-size: 15px; width: 400px;" type="search" placeholder="Pesquise um curso...">
+            </div>
+
             <div class = "minicabecalho">
                 <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 250px;"> Cursos   > </p>
                 <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 20px;"> Cursos Técnicos  > </p>
                 <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 20px;"> Faculdades </p>
             </div>
-        <div class = "banner"> Propaganda </div>
+
         <div class="divisao">
             <div class="item" ><img src = "Imagens/adm.jpg"; style="height:100%;width:230px;float:left;"><h1 style = "color: rgb(0, 0, 0);font-size: 27px;margin-top: 10px;margin-left: 10px;">Técnico Em Administração</h1><p style = "color: rgb(0, 0, 0);font-size: 27px;margin-right: 120px;"> Curso Técnico: Gestão</p>
-            <div class="botão">
-            <a href="Adm.html"; style = "text-align:justify; font-size: 20px; color: rgb(0, 0, 0);margin-inline: 80px;margin-top: 15px;">Saiba Mais</a>
-            </div>
+            <div class = "botão"><p style = "text-align:justify; font-size: 20px; color: rgb(0, 0, 0);margin-inline: 80px;margin-top: 15px;">Saiba Mais</p></div>
             </div>
             <div class="item" ><img src = "Imagens/informatica.jpg"; style="height:100%;width:230px;float:left;"><h1 style = "color: rgb(0, 0, 0);font-size: 27px;margin-top: 10px;margin-left: 10px;">Técnico Em Informatica</h1><p style = "color: rgb(0, 0, 0);font-size: 27px;margin-right: 120px;"> Curso Técnico: Tecnologias</p>
-            <div class="botão">
-            <a href="TI.html"; style = "text-align:justify; font-size: 20px; color: rgb(0, 0, 0);margin-inline: 80px;margin-top: 15px;">Saiba Mais</a>
-            </div>
+            <div class = "botão"><p style = "text-align:justify; font-size: 20px; color: rgb(0, 0, 0);margin-inline: 80px;margin-top: 15px;">Saiba Mais</p></div>
             </div>
             <div class="item" ><img src = "Imagens/enfermagem.jpg"; style="height:100%;width:230px;float:left;"><h1 style = "color: rgb(0, 0, 0);font-size: 27px;margin-top: 10px;margin-left: 10px;">Técnico Em Enfermagem</h1><p style = "color: rgb(0, 0, 0);font-size: 27px;margin-right: 120px;"> Curso Técnico: Saúde</p>
-            <div class="botão">
-            <a href="enfermagem.html"; style = "text-align:justify; font-size: 20px; color: rgb(0, 0, 0);margin-inline: 80px;margin-top: 15px;">Saiba Mais</a>
-            </div>
+            <div class = "botão"><p style = "text-align:justify; font-size: 20px; color: rgb(0, 0, 0);margin-inline: 80px;margin-top: 15px;">Saiba Mais</p></div>
             </div>
         </div>
-        
 
-        <div class = "fundo2">
-            <div class="caixinas"><h1 style = "grid-column: 1 / -1;color: rgb(28, 37, 95);font-size: 40px;margin: 2;padding: 0;">Sobre o Curso</h1>
-                <div class="item2">Objetivos</div>
-                <div class="item2">O que vou aprender?</div>
-                <div class="item2">Posso fazer este curso?</div>
-                <div class="item2">Terei diploma ou certificado?</div>
+        <div class = "fundo1">
+            <div>
+                <h1 style = "color: rgb(28, 37, 95);text-align:justify; font-size: 50px; color: rgb(0, 0, 0);margin-top: 15px;margin-bottom: -10px; padding-left: 20px;">Técnico em Enfermagem</h1>
+                <p style = "color: rgb(60, 73, 162);text-align:justify; font-size: 35px; color: rgb(0, 0, 0); margin: 20px; margin-bottom: 20px;">Objetivo do curso</p>
+                <p style = "text-align:justify; font-size: 25px; color: rgb(0, 0, 0); margin: 20px;margin-bottom: 30px;">O Curso Técnico em Enfermagem tem como objetivo preparar profissionais para atuar na área da saúde, oferecendo conhecimentos teóricos e práticos para o atendimento e cuidado de pacientes. Durante a formação, o estudante aprende a realizar procedimentos de enfermagem, administrar medicamentos conforme orientação e prescrição, prestar primeiros socorros, auxiliar em exames e tratamentos e contribuir para a prevenção de doenças. O curso também desenvolve habilidades relacionadas à ética profissional, humanização do atendimento, segurança do paciente e trabalho em equipe. Após a conclusão, o profissional poderá atuar em hospitais, clínicas, unidades básicas de saúde, laboratórios, instituições de longa permanência e outros serviços de saúde, respeitando as atribuições previstas para o técnico de enfermagem.</p>
+                <p style = "text-align:justify; font-size: 35px; color: rgb(0, 0, 0); margin: 20px; margin-bottom: 20px;">Duração / Carga Horária</p>           
+                <p style = "text-align:justify; font-size: 25px; color: rgb(0, 0, 0); margin: 20px;">A duração do Curso Técnico em Enfermagem pode variar de acordo com a instituição de ensino e sua organização curricular. De modo geral, a formação possui duração aproximada de 2 anos, podendo chegar a 2 anos e meio, com uma carga horária que costuma ficar em torno de 1.200 a 1.800 horas, incluindo atividades teóricas e práticas. A formação também pode contar com estágio supervisionado, proporcionando ao estudante a oportunidade de aplicar os conhecimentos adquiridos durante o curso em situações reais de trabalho.</p>
+                <p style = "text-align:justify; font-size: 35px; color: rgb(0, 0, 0); margin: 20px; margin-bottom: 20px;">Grade Curricular</p>                       
+                <p style = "text-align:justify; font-size: 25px; color: rgb(0, 0, 0); margin: 20px;">A grade curricular do Curso Técnico em Enfermagem é composta por disciplinas que abrangem conhecimentos básicos e específicos da área da saúde. Entre os principais conteúdos estão:</p>
+                <ol>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(0, 0, 0); margin: 20px; margin-bottom: -10px"> Anatomia e Fisiologia Humana;</li>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(0, 0, 0); margin: 20px; margin-bottom: -10px;"> Fundamentos de Enfermagem;</li>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(0, 0, 0); margin: 20px; margin-bottom: -10px"> Microbiologia e Parasitologia;</li>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(0, 0, 0); margin: 20px; margin-bottom: -10px"> Saúde Coletiva;</li>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(0, 0, 0); margin: 20px; margin-bottom: -10px"> Farmacologia;</li>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(0, 0, 0); margin: 20px; margin-bottom: -10px"> Primeiros Socorros e Atendimento de Urgência e Emergência;</li>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(0, 0, 0); margin: 20px; margin-bottom: -10px"> Enfermagem Médico-Cirúrgica;</li>
+                </ol>
+                <p style = "text-align:justify; font-size: 25px; color: rgb(0, 0, 0); margin: 20px;">A combinação entre aulas teóricas, práticas em laboratório e estágio supervisionado permite que o estudante desenvolva conhecimentos técnicos, responsabilidade, atenção e capacidade para prestar uma assistência de enfermagem segura e humanizada.</p>
             </div>
-        <h1 style = "color: rgb(28, 37, 95);font-size: 55px;margin-left: 30px;margin-bottom: 20px;">Objetivos</h1>
-        <h2 style = "color: rgb(60, 73, 162);font-size: 30px;margin-left: 30px;margin-bottom: 10px;">Objetivo geral</h2>
-        <p style = "color: rgb(0, 0, 0);font-size: 20px;margin-left: 30px;">Formar profissionais com competências para atuar em seu campo de trabalho, com foco em resultados.</p>
-        <h2 style = "color: rgb(60, 73, 162);font-size: 30px;margin-left: 30px;margin-bottom: -7px;">Objetivos específicos</h2>
-        <p style = "color: rgb(0, 0, 0);font-size: 25px;margin-left: 30px;margin-bottom: 15px;">Formar profissionais com competências para atuar em seu campo de trabalho, com foco em resultados.</p>
-        <ul style = "color: rgb(28, 42, 130);font-size: 27px;margin-left: 30px;">
-            <li> Promover o protagonismo do aluno por meio de situações de aprendizagem, que articulem e mobilizem conhecimentos, habilidades, atitudes e valores, incentivando a resolução de problemas, a criatividade e a autonomia no aprendizado.</li>
-            <li> Articular as competências do perfil profissional por meio do Projeto Integrador, promovendo o trabalho coletivo e a tomada de decisão diante dos desafios do mundo do trabalho.</li>
-            <li>Promover uma avaliação contínua, com base nos indicadores de competência, que possibilite ajustes ao longo do processo educativo e considere as especificidades dos alunos.</li>
-            <li>Incentivar a pesquisa como princípio pedagógico, estimulando a investigação crítica, a construção de conhecimento contextualizado e a integração de novas tecnologias, como a inteligência artificial às práticas do segmento de atuação profissional.</li>
-        </ul>
-        </div>
+            </div>
+
 
     <footer class="rodape">
         <div class="coluna">
@@ -235,7 +231,6 @@
         </div>
     </footer>
 
-    </div>
     </div>
     </div>
 </body>
