@@ -10,7 +10,7 @@
         
         .fundo{
             background-color: rgb(189, 189, 189);
-            height: 1666px;
+            height: 1706px;
             width: 100%;
         }
         .container{
@@ -43,12 +43,12 @@
             border-radius: 15px;
         }
         .banner{
-            background-color: blueviolet;
             border-radius: 15px;
             height: 250px;
             width: 85%;
             float: none;
             margin: 10px;
+            margin-bottom: 50px;
             margin-left: 90px;
             display: flex;
         }
@@ -139,16 +139,24 @@
     <div class = "container" >
         <div class = "cabecalho"><img src = "Imagens/senac.png"; style ="height:80px;width:120px;float:left;">
         <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Cursos </p>
-        <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Tec. Administração </p>
-        <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Tec. Informatica</p>
-        <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Tec. Enfermagem </p>
+        <a href = "Adm.html"><p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Tec. Administração </p></a>
+        <a href = "TI.html"><p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Tec. Informatica </p></a>
+        <a href = "enfermagem.html"><p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Tec. Enfermagem </p></a>
         <input class="pesquisa"; style = "font-size: 15px; width: 400px;" type="search" placeholder="Pesquise um curso...">
             <div class = "minicabecalho">
                 <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 250px;"> Cursos   > </p>
                 <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 20px;"> Cursos Técnicos  > </p>
                 <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 20px;"> Faculdades </p>
             </div>
-        <div class = "banner"> Propaganda </div>
+
+        <div class = "banner">
+        <div style="width: 100%">
+            <video autoplay loop muted width="100%">
+            <source src="video/propagandaSenac.mp4" type="video/mp4">
+            </video>
+        </div>
+        </div>
+
         <div class="divisao">
             <div class="item" ><img src = "Imagens/adm.jpg"; style="height:100%;width:230px;float:left;"><h1 style = "color: rgb(0, 0, 0);font-size: 27px;margin-top: 10px;margin-left: 10px;">Técnico Em Administração</h1><p style = "color: rgb(0, 0, 0);font-size: 27px;margin-right: 120px;"> Curso Técnico: Gestão</p>
             <div class="botão">
